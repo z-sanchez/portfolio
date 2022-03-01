@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    overflow-x: hidden;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    top: 0;
+    background-color: #1E6FFB;
+    position: fixed;
+    box-shadow: 1px .5px 4px #292929;
+
+}
+
+nav img {
+    width: 64px;
+    height: 64px;
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+p {
+    text-align: center;
+    color: #F3F3F3;
+    text-align: center;
+    margin: 0;
+}
+
+#contactButton p {
+    color: #F3F3F3;
+    background-color: #1E6FFB;
+    border-radius: 35px;
+    border: solid 3px #F3F3F3;
+}
+
+#contactButton p:hover {
+    background-color: #F3F3F3;
+    color: #1E6FFB;
+}
+
+#intro {
+    height: 100vh;
+}
+
+.spacer {
+    margin-top: 5vh;
+}
+
+
+.welcomeText p {
+    font-size: 60px;
+    text-align: left;
+    color: #292929;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: .5px 1.2px 2.5px#292929;
+}
+
+.blueText {
+    color: #1E6FFB;
+    text-shadow: .5px 1.2px 3px #1E6FFB;
+}
+
+.button {
+    color: #1E6FFB;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    border: solid 3px #1E6FFB;
+    width: 200px;
+}
+
+.button:hover {
+    background-color: #1E6FFB;
+    color: #FFFFFF;
+}
+
+
+.graphic h1 {
+    color: #1E6FFB;
+    font-size: 250px;
+    text-shadow: 1px 1.5px 2.5px #1E6FFB;
+}
+
+
+
+#aboutMe h1 {
+    font-size: 52px;
+}
+
+#aboutMeGraphic {
+    position: relative;
+    right: 30%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.bar {
+    height: 5px;
+    width: 10vw;
+    background-color: #1E6FFB;
+}
+
+.aboutMe__description {
+    margin-top: 6vh;
+}
+
+
+.aboutMe__descriptionText {
+    color: #424242a6;
+    text-align: left;
+    font-size: 25px;
+}
+
+#txstLogo {
+    max-width: 90%;
+    height: auto;
+    width: auto;
+}
+
+#degreeText {
+    color: #3d3d3d;
+    text-align: start;
+}
+
+.lightText {
+    text-align: start;
+    color: #424242a6;
+}
+
+
+.tags {
+    color: #F3F3F3;
+    background-color: #1E6FFB;
+    width: 135px;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+.education, .skills {
+    display: none;
+}
+
+
+.skills--backgroundColor {
+    background-color: #e6e6e6a6;
+    border-radius: 10px;
+}
+
+.skillsIcon {
+    max-width: 50px;
+    height: auto;
+    width: auto;
+}
+
+#css {
+    max-width: 70px;
+}
