@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+
     <header>
         <nav class="container-fluid d-flex flex-row justify-content-between align-items-center p-2">
             <img src="./logo.png" alt="logo" class="mx-4">
@@ -28,113 +30,140 @@
             </ul>
         </nav>
     </header>
+
+
     <div class="container-fluid spacer">
+
+
         <section id="intro" class="row justify-content-center">
-            <div class="d-flex flex-column align-items-start welcomeText col-lg-5 justify-content-center">
+            <div class="d-flex flex-column align-items-start welcomeText col-lg-6 justify-content-center">
                 <p>I'm <span class="blueText">Ziek,</span></p>
                 <p>A Front-End Developer.</p>
                 <button class="button p-1 px-5 fs-5 mt-3">See More</button>
             </div>
             <div class="graphic mb-5 d-flex flex-column align-items-center justify-content-center col-lg-4">
-                <h1> <span>&#60;</span>/<span>&#62;</span> </h1>
+                <h1> <span>&#60;</span>/<span>&#62;</span></h1>
             </div>
         </section>
-        <section class="row justify-content-center" id="aboutMe">
-            <div id="aboutMeHeader" class="col-lg-3 d-flex flex-column align-items-start justify-content-start">
-                <h1>About Me</h1>
-                <div class="bar"></div>
-                <img class="flex-shrink-0" id="aboutMeGraphic" src="./aboutMeGraphic.png" alt="aboutMeGraphic">
+
+
+        <section class="row pb-4" id="aboutMe">
+            <div id="aboutMeHeader" class="row w-100 justify-content-center">
+                <div class="col-10">
+                    <h1>About Me</h1>
+                    <div class="bar"></div>
+                </div>
             </div>
-            <div class="aboutMe__description col-lg-6 d-flex flex-column align-items-center justify-content-start">
-                <p class="aboutMe__descriptionText">Hi! I'm graduate looking for an opportunity to develop my skills and career on exciting web development projects. I look foward to rewarding challenges and learning more about the web. I’d be happy to work with those who care to hone and cultivate skill while also finding my assets to be of use.</p>
-                <div class="row w-100 mt-4" >
-                    <div class="col">
-                        <button class=" button p-1 px-5 fs-5 mt-3">Skills</button>
-                    </div>
-                    <div class="col">
-                        <button class="button p-1 fs-5 mt-3">Education</button>
-                    </div>
-                    <div class="col">
-                        <button class="button p-1 px-5 fs-5 mt-3">Other</button>
-                    </div>
+
+            <div class="row w-100 justify-content-center align-items-center">
+                <div class="col-4">
+                    <img id="aboutMeGraphic" src="./aboutMeGraphic.png" alt="aboutMeGraphic">
                 </div>
-            <section class="row w-100 m-5 education">
-                    <div class="col-6">
-                        <img src="./txstLogo.png" alt="txstLogo" id="txstLogo" class="mt-5">
-                    </div>
-                    <div class="col-6 mt-5">
-                        <p class="fs-4" id="degreeText">Bachelor of Science (B.S.) Major in 
-                            Digital Media Innovation</p>
-                        <p class="fs-5 lightText">Minor in Computer Science</p>
-                        <p class="fs-6 lightText">GPA: 3.7  Dean's List: 2019, 2020, 2021, 2022</p>
-                    </div>
-                <div class="row w-100 m-3">
-                    <div class="col-3">
-                        <p class="fs-4 lightText">Course Work:</p>
-                    </div>
-                    <div class="col-9 d-flex flex-row flex-wrap align-items-center justify-content-start">
-                        <p class="tags p-2 m-2">OOP</p>
-                        <p class="tags p-2 m-2">Web Design</p>
-                        <p class="tags p-2 m-2">Media Analytics</p>
-                        <p class="tags p-2 m-2">Data Structures</p>
-                        <p class="tags p-2 m-2">Discrete Math</p>
-                        <p class="tags p-2 m-2">Databases</p>
-                        <p class="tags p-2 m-2">Computer Arch</p>
-                        <p class="tags p-2 m-2">Media Design</p>
-                        <p class="tags p-2 m-2">Software Dev</p>
-                        <p class="tags p-2 m-2">Web Dev</p>
-                        <p class="tags p-2 m-2">Algorithms</p>
-                        <p class="tags p-2 m-2">Web Dev</p>
-                    </div>
-                </div>
-            </section>
-            <section class="row w-100 m-5 skills">
-                <div class="col-12 d-flex flex-column flex-wrap align-items-start justify-content-start">
-                    <p class="tags p-2 m-2">Front-End</p>
-                    <div class="row w-100 skills--backgroundColor">
-                        <div class="col">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/html-5--v2.png" id="html" alt="html Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/css3.png" id="css" alt="css Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/javascript.png" id="javascript" alt="javascript Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/45/000000/external-bootstrap-a-free-and-open-source-css-framework-logo-bold-tal-revivo.png" id="bootstrap" alt="bootstrap Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/sass.png" id="sass" alt="sass Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios/50/000000/react-native--v1.png" id="react" alt="react Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/jquery.png" id="jquery" alt="jquery Icon">
+
+                <div class="col-6">
+                    <div class="aboutMe__description d-flex flex-column align-items-center justify-content-start">
+                        <p class="aboutMe__descriptionText">Hi! I'm graduate looking for an opportunity to develop my skills and career on exciting web development projects. I look foward to rewarding challenges and learning more about the web. I’d be happy to work with those who care to hone and cultivate skill while also finding my assets to be of use.</p>
+                        <div class="row w-100 mt-4" >
+                            <div class="col">
+                                <button class=" button p-1 px-5 fs-5 mt-3">Skills</button>
+                            </div>
+                            <div class="col">
+                                <button class="button p-1 fs-5 mt-3">Education</button>
+                            </div>
+                            <div class="col">
+                                <button class="button p-1 px-5 fs-5 mt-3">Experience</button>
+                            </div>
                         </div>
                     </div>
-                    <p class="tags p-2 m-2">Back-End</p>
-                    <div class="row w-100 skills--backgroundColor">
-                        <div class="col">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/python.png" id="python" alt="python icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png" id="java" alt="java Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus.png" id="java" alt="java Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/sql.png" id="sql" alt="sql Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/windows/100/000000/nodejs.png" id="nodejs" alt="nodejs Icon">
+
+                    
+
+                    <section class="row w-100 my-5 education">
+                        <div class="col-6">
+                            <img src="./txstLogo.png" alt="txstLogo" id="txstLogo" class="mt-5">
                         </div>
-                    </div>
-                    <p class="tags p-2 m-2">Other</p>
-                    <div class="row w-100 skills--backgroundColor">
-                        <div class="col">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/windows/100/000000/npm.png" id="npm" alt="npm Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/git.png" id="git" alt="git Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/linux.png" id="linux" alt="linux Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/adobe-logo.png" id="adobe" alt="adobe Icon">
-                            <img class="skillsIcon m-3" src="https://img.icons8.com/ios-glyphs/100/000000/wordpress--v1.png" id="wordpress" alt="wordpress Icon">
+                        <div class="col-6 mt-5">
+                            <p class="fs-4" id="degreeText">Bachelor of Science (B.S.) Major in Digital Media Innovation</p>
+                            <p class="fs-5 lightText">Minor in Computer Science</p>
+                            <p class="fs-6 lightText">GPA: 3.7  Dean's List: 2019, 2020, 2021, 2022</p>
                         </div>
-                    </div>
+                        <div class="row w-100 m-3">
+                            <div class="col-3">
+                                <p class="fs-4 lightText">Course Work:</p>
+                            </div>
+                            <div class="col-9 d-flex flex-row flex-wrap align-items-center justify-content-start">
+                                <p class="tags p-2 m-2">OOP</p>
+                                <p class="tags p-2 m-2">Web Design</p>
+                                <p class="tags p-2 m-2">Media Analytics</p>
+                                <p class="tags p-2 m-2">Data Structures</p>
+                                <p class="tags p-2 m-2">Discrete Math</p>
+                                <p class="tags p-2 m-2">Databases</p>
+                                <p class="tags p-2 m-2">Computer Arch</p>
+                                <p class="tags p-2 m-2">Media Design</p>
+                                <p class="tags p-2 m-2">Software Dev</p>
+                                <p class="tags p-2 m-2">Web Dev</p>
+                                <p class="tags p-2 m-2">Algorithms</p>
+                                <p class="tags p-2 m-2">Web Dev</p>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="row w-100 my-5 skills">
+                        <div class="col-12 d-flex flex-column flex-wrap align-items-start justify-content-start">
+                            <p class="tags p-2 m-2">Front-End</p>
+                            <div class="row w-100 skills--backgroundColor">
+                                <div class="col">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/html-5--v2.png" id="html" alt="html Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/css3.png" id="css" alt="css Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/javascript.png" id="javascript" alt="javascript Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/45/000000/external-bootstrap-a-free-and-open-source-css-framework-logo-bold-tal-revivo.png" id="bootstrap" alt="bootstrap Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/sass.png" id="sass" alt="sass Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios/50/000000/react-native--v1.png" id="react" alt="react Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/jquery.png" id="jquery" alt="jquery Icon">
+                                </div>
+                            </div>
+                            <p class="tags p-2 m-2">Back-End</p>
+                            <div class="row w-100 skills--backgroundColor">
+                                <div class="col">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/python.png" id="python" alt="python icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png" id="java" alt="java Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus.png" id="java" alt="java Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/sql.png" id="sql" alt="sql Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/windows/100/000000/nodejs.png" id="nodejs" alt="nodejs Icon">
+                                </div>
+                            </div>
+                            <p class="tags p-2 m-2">Other</p>
+                            <div class="row w-100 skills--backgroundColor">
+                                <div class="col">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/windows/100/000000/npm.png" id="npm" alt="npm Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/git.png" id="git" alt="git Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/linux.png" id="linux" alt="linux Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-filled/50/000000/adobe-logo.png" id="adobe" alt="adobe Icon">
+                                    <img class="skillsIcon m-3" src="https://img.icons8.com/ios-glyphs/100/000000/wordpress--v1.png" id="wordpress" alt="wordpress Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="row w-100 my-5 experience">
+                        <div class="col-5 p-0">
+                            <h1 class="fs-4"><a href="https://www.masscomm.txstate.edu/media-innovation/innovation-club.html" target="_blank" >Innovaton Club</a> @ TXST</h1>
+                            <p class="fs-6 lightText mb-5">"solve real-world problems around topics such as computer programming, virtual reality, 360 video, internet of things (iOT), artificial intelligence, bots, sensors and other cutting-edge technologies."</p>
+                            <h1 class="fs-4"><a href="https://twitter.com/txstateexe" target="_blank">.EXE Club</a> @ TXST</h1>
+                            <p class="fs-6 lightText">"Computer Science Student Organization"</p>
+                        </div>
+                        <div class="col-1 d-flex flex-column align-items-center justify-content-center">
+                            <div class="horizontalBar"></div>
+                        </div>
+                        <div class="col-5">
+                            <h1 class="fs-4"><a href="https://itac.txstate.edu/" target="_blank">ITAC</a> (IT Technician)</h1>
+                            <p class="fs-6 lightText">Worked a year and half as IT Tech. Programmed equipment to function in classrooms, occasionaly found oppurtunities to make changes to ITAC's websites, and learned how to pick up new skills in fast tech enviroments</p>
+                        </div>
+                    </section>
                 </div>
-            </section>
-            <section class="row w-100 m-5 experience">
-                <div class="col-5 p-0">
-                    <h1 class="fs-3 text-left mb-4">Dedicated member to both:</h1>
-                    <h1 class="fs-4">Innovaton Club @ TXST</h1>
-                    <p class="fs-6 lightText mb-5">"solve real-world problems around topics such as computer programming, virtual reality, 360 video, internet of things (iOT), artificial intelligence, bots, sensors and other cutting-edge technologies."</p>
-                    <h1 class="fs-4">.EXE Club @ TXST</h1>
-                    <p class="fs-6 lightText">"Computer Science Student Organization"</p>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-5"></div>
-            </section>  
+            </div>
         </section>
     </div>
         

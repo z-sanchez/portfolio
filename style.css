@@ -1,188 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 html {
-    overflow-x: hidden;
-    line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-h1, h2, h3, h4, h5 {
-    line-height: 1.2;
+  overflow-x: hidden;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
 nav {
-    top: 0;
-    background-color: #1E6FFB;
-    position: fixed;
-    box-shadow: 1px .5px 4px #292929;
-
+  top: 0;
+  background-color: #1e6ffb;
+  position: fixed;
+  box-shadow: 1px 0.5px 4px #292929;
 }
 
 nav img {
-    width: 64px;
-    height: 64px;
+  width: 64px;
+  height: 64px;
 }
 
 ul {
-    margin: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 p {
-    text-align: center;
-    color: #F3F3F3;
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  color: #f3f3f3;
+  text-align: center;
+  margin: 0;
 }
 
 #contactButton p {
-    color: #F3F3F3;
-    background-color: #1E6FFB;
-    border-radius: 35px;
-    border: solid 3px #F3F3F3;
+  color: #f3f3f3;
+  background-color: #1e6ffb;
+  border-radius: 35px;
+  border: solid 3px #f3f3f3;
 }
 
 #contactButton p:hover {
-    background-color: #F3F3F3;
-    color: #1E6FFB;
+  background-color: #f3f3f3;
+  color: #1e6ffb;
 }
 
 #intro {
-    height: 100vh;
+  height: 100vh;
 }
 
 .spacer {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
-
 .welcomeText p {
-    font-size: 60px;
-    text-align: left;
-    color: #292929;
-    font-family: 'Open Sans', sans-serif;
-    text-shadow: .5px 1.2px 2.5px#292929;
+  font-size: 60px;
+  text-align: left;
+  color: #292929;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 0.5px 1.2px 2.5px#292929;
 }
 
 .blueText {
-    color: #1E6FFB;
-    text-shadow: .5px 1.2px 3px #1E6FFB;
+  color: #1e6ffb;
+  text-shadow: 0.5px 1.2px 3px #1e6ffb;
 }
 
 .button {
-    color: #1E6FFB;
-    background-color: #FFFFFF;
-    border-radius: 35px;
-    border: solid 3px #1E6FFB;
-    width: 200px;
+  color: #1e6ffb;
+  background-color: #ffffff;
+  border-radius: 35px;
+  border: solid 3px #1e6ffb;
+  width: 200px;
 }
 
 .button:hover {
-    background-color: #1E6FFB;
-    color: #FFFFFF;
+  background-color: #1e6ffb;
+  color: #ffffff;
 }
-
 
 .graphic h1 {
-    color: #1E6FFB;
-    font-size: 250px;
-    text-shadow: 1px 1.5px 2.5px #1E6FFB;
+  color: #1e6ffb;
+  font-size: 250px;
+  text-shadow: 1px 1.5px 2.5px #1e6ffb;
 }
 
-
-
 #aboutMe h1 {
-    font-size: 52px;
+  font-size: 52px;
 }
 
 #aboutMeGraphic {
-    position: relative;
-    right: 30%;
-    max-width: 100%;
-    width: auto;
-    height: auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 .bar {
-    height: 5px;
-    width: 10vw;
-    background-color: #1E6FFB;
+  height: 5px;
+  width: 10vw;
+  background-color: #1e6ffb;
 }
 
 .aboutMe__description {
-    margin-top: 6vh;
+  margin-top: 6vh;
 }
 
-
 .aboutMe__descriptionText {
-    color: #424242a6;
-    text-align: left;
-    font-size: 25px;
+  color: #424242a6;
+  text-align: left;
+  font-size: 25px;
 }
 
 #txstLogo {
-    max-width: 90%;
-    height: auto;
-    width: auto;
+  max-width: 90%;
+  height: auto;
+  width: auto;
 }
 
 #degreeText {
-    color: #3d3d3d;
-    text-align: start;
+  color: #3d3d3d;
+  text-align: start;
 }
 
 .lightText {
-    text-align: start;
-    color: #424242a6;
+  text-align: start;
+  color: #424242a6;
 }
-
 
 .tags {
-    color: #F3F3F3;
-    background-color: #1E6FFB;
-    width: 135px;
-    font-size: 13px;
-    border-radius: 8px;
+  color: #f3f3f3;
+  background-color: #1e6ffb;
+  width: 135px;
+  font-size: 13px;
+  border-radius: 8px;
 }
 
+.experience,
 .education {
-
+  display: none;
 }
-
 
 .skills--backgroundColor {
-    background-color: #e6e6e6a6;
-    border-radius: 10px;
+  background-color: #e6e6e6a6;
+  border-radius: 10px;
 }
 
 .skillsIcon {
-    max-width: 50px;
-    height: auto;
-    width: auto;
+  max-width: 50px;
+  height: auto;
+  width: auto;
 }
 
 #css {
-    max-width: 70px;
+  max-width: 70px;
 }
 
-
 .headingsDarkerlight {
-    color: #424242a6;
+  color: #424242a6;
+}
+
+.horizontalBar {
+  width: 0.2vw;
+  background-color: #1e6ffb;
+  height: 20vh;
+}
+
+#experience h1 {
+  font-family: sans-serif;
 }
