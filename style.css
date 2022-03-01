@@ -162,8 +162,8 @@ p {
     border-radius: 8px;
 }
 
-.education, .skills {
-    display: none;
+.education {
+
 }
 
 
@@ -180,4 +180,9 @@ p {
 
 #css {
     max-width: 70px;
+}
+
+
+.headingsDarkerlight {
+    color: #424242a6;
 }
