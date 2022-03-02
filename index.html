@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="row w-100 justify-content-center align-items-center">
+            <div class="row w-100 justify-content-center align-items-start">
                 <div class="col-4">
                     <img id="aboutMeGraphic" src="./aboutMeGraphic.png" alt="aboutMeGraphic">
                 </div>
@@ -65,20 +65,20 @@
                         <p class="aboutMe__descriptionText">Hi! I'm graduate looking for an opportunity to develop my skills and career on exciting web development projects. I look foward to rewarding challenges and learning more about the web. I’d be happy to work with those who care to hone and cultivate skill while also finding my assets to be of use.</p>
                         <div class="row w-100 mt-4" >
                             <div class="col">
-                                <button class=" button p-1 px-5 fs-5 mt-3">Skills</button>
+                                <button id="skillsButton" class="button aboutMeButton p-1 px-5 fs-5 mt-3">Skills</button>
                             </div>
                             <div class="col">
-                                <button class="button p-1 fs-5 mt-3">Education</button>
+                                <button id="educationButton" class="button aboutMeButton p-1 fs-5 mt-3">Education</button>
                             </div>
                             <div class="col">
-                                <button class="button p-1 px-5 fs-5 mt-3">Experience</button>
+                                <button id="experienceButton" class="button aboutMeButton p-1 px-5 fs-5 mt-3">Experience</button>
                             </div>
                         </div>
                     </div>
 
                     
 
-                    <section class="row w-100 my-5 education">
+                    <section class="row w-100 my-5 education align-self-start">
                         <div class="col-6">
                             <img src="./txstLogo.png" alt="txstLogo" id="txstLogo" class="mt-5">
                         </div>
@@ -109,7 +109,7 @@
                     </section>
 
 
-                    <section class="row w-100 my-5 skills">
+                    <section class="row w-100 my-5 skills align-self-start">
                         <div class="col-12 d-flex flex-column flex-wrap align-items-start justify-content-start">
                             <p class="tags p-2 m-2">Front-End</p>
                             <div class="row w-100 skills--backgroundColor">
@@ -147,7 +147,7 @@
                     </section>
 
 
-                    <section class="row w-100 my-5 experience">
+                    <section class="row w-100 my-5 align-self-start experience">
                         <div class="col-5 p-0">
                             <h1 class="fs-4"><a href="https://www.masscomm.txstate.edu/media-innovation/innovation-club.html" target="_blank" >Innovaton Club</a> @ TXST</h1>
                             <p class="fs-6 lightText mb-5">"solve real-world problems around topics such as computer programming, virtual reality, 360 video, internet of things (iOT), artificial intelligence, bots, sensors and other cutting-edge technologies."</p>
@@ -167,6 +167,8 @@
         </section>
     </div>
         
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
