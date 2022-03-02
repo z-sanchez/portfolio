@@ -92,6 +92,10 @@ p {
   width: 200px;
 }
 
+.aboutMeButton {
+  width: 75%;
+}
+
 .button:hover {
   background-color: #1e6ffb;
   color: #ffffff;
@@ -236,6 +240,10 @@ p {
 
   #aboutMeGraphic {
     margin-top: 0;
+  }
+
+  .aboutMeButton {
+    width: 90%;
   }
 }
 

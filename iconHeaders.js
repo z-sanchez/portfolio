@@ -10,7 +10,7 @@ icons.forEach((element, index) => {
         headers[index].style.display = "block";
     });
     element.addEventListener("mouseleave", (element) => {
-        console.log("hovering... " + element.target);
+        headers[index].style.display = "none";
     });
 });
 
