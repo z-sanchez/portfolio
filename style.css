@@ -28,18 +28,20 @@ a {
 nav {
   top: 0;
   width: 100%;
+  height: auto;
   position: fixed;
   background-color: #1e6ffb;
-  box-shadow: 1px 0.5px 4px #292929;
+  box-shadow: 1px 5px 8px #2929292c;
 }
 
 nav img {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
 }
 
 ul {
   margin: 0;
+  padding: 0;
 }
 
 li {
@@ -197,11 +199,6 @@ p {
   display: none;
 }
 
-.skillsText p {
-  width: 50px;
-  height: 50px;
-}
-
 .headingsDarkerlight {
   color: #424242a6;
 }
@@ -241,20 +238,27 @@ p {
 @media screen and (max-width: 1000px) {
   
   .sectionSpacing {
-    padding-top: 15%;
+    padding-top: 18%;
   }
 
   #aboutMeGraphic {
     margin-top: 0;
   }
 
-  .aboutMeButton--background {
-    width: 30%;
+  .aboutMeButton {
+    font-size: 15px;
   }
 
-  .aboutMeButton {
+  .skillsIcon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  
+  .skillsText {
     font-size: 10px;
   }
+
 }
 
 @media screen and (max-width: 768px) {
