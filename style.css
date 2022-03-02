@@ -8,6 +8,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+footer div p {
+  font-size: 10px;
+}
+
 h1,
 h2,
 h3,
@@ -78,12 +82,12 @@ p {
   font-size: 60px;
   color: #292929;
   font-family: "Open Sans", sans-serif;
-  text-shadow: 0px 5px 15px #bdbdbd;
+  text-shadow: 0px 5px 8px #bdbdbd;
 }
 
 .blueText {
   color: #1e6ffb;
-  text-shadow: 0px 5px 15px #bdbdbd;
+  text-shadow: 0px 5px 8px #bdbdbd;
 }
 
 .button {
@@ -122,14 +126,14 @@ p {
 .graphic h1 {
   color: #1e6ffb;
   font-size: 250px;
-  text-shadow: 0px 5px 15px #bdbdbd;
+  text-shadow: 0px 5px 8px #bdbdbd;
 }
 
 #aboutMe h1,
 #projects h1,
 #contact h1 {
   font-size: 52px;
-  text-shadow: 0px 5px 15px #bdbdbd;
+  text-shadow: 0px 5px 8px #bdbdbd;
 }
 
 #aboutMeGraphic {
@@ -216,7 +220,7 @@ p {
 }
 
 .project__title {
-  text-shadow: 0px 5px 15px #bdbdbd;
+  text-shadow: 0px 5px 8px #bdbdbd;
 }
 
 .project__description {
@@ -235,6 +239,19 @@ p {
   margin-bottom: 8%;
 }
 
+
+@media screen and (max-width: 1500px) {
+  .skillsIcon, .project__link img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  
+  .skillsText {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   
   .sectionSpacing {
@@ -250,15 +267,6 @@ p {
     width: 75%;
   }
 
-  .skillsIcon, .project__link img {
-    width: 25px;
-    height: 25px;
-  }
-  
-  
-  .skillsText {
-    font-size: 10px;
-  }
 
 }
 
