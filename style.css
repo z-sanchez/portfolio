@@ -105,7 +105,8 @@ p {
   text-shadow: 1px 1.5px 2.5px #1e6ffb;
 }
 
-#aboutMe h1 {
+#aboutMe h1,
+#projects h1 {
   font-size: 52px;
 }
 
@@ -120,10 +121,6 @@ p {
   height: 5px;
   width: 10vw;
   background-color: #1e6ffb;
-}
-
-.aboutMe__description {
-  margin-top: 6vh;
 }
 
 .aboutMe__descriptionText {
