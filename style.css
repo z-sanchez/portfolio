@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 html {
-  overflow-x: hidden;
   line-height: 1.6;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,10 +20,19 @@ h5 {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+
+
+
 nav {
   top: 0;
-  background-color: #1e6ffb;
+  width: 100%;
   position: fixed;
+  background-color: #1e6ffb;
   box-shadow: 1px 0.5px 4px #292929;
 }
 
@@ -37,15 +45,19 @@ ul {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 
 li {
   display: inline-block;
   list-style: none;
 }
+
+
+
+
+
+
+
+
 
 p {
   text-align: center;
@@ -238,4 +250,12 @@ p {
 
 .project {
   margin-bottom: 8%;
+}
+
+
+@media screen and (max-width: 600px) {
+  ul {
+    display: none;
+  }
+  
 }
