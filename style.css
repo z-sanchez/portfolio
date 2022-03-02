@@ -78,12 +78,13 @@ p {
   text-align: left;
   color: #292929;
   font-family: "Open Sans", sans-serif;
-  text-shadow: 0.5px 1.2px 2.5px#292929;
+  text-shadow: 0px 5px 15px #bdbdbd;
+
 }
 
 .blueText {
   color: #1e6ffb;
-  text-shadow: 0.5px 1.2px 3px #1e6ffb;
+  text-shadow: 0px 5px 15px #bdbdbd;
 }
 
 .button {
@@ -99,22 +100,35 @@ p {
   color: #ffffff;
 }
 
+#skillsButton {
+  background-color: #1e6ffb;
+  color: #ffffff;
+}
+
+#skillsButton:hover {
+  color: #1e6ffb;
+  background-color: #ffffff;
+}
+
 .graphic h1 {
   color: #1e6ffb;
   font-size: 250px;
-  text-shadow: 1px 1.5px 2.5px #1e6ffb;
+  text-shadow: 0px 5px 15px #bdbdbd;
+
 }
 
 #aboutMe h1,
 #projects h1 {
   font-size: 52px;
+  text-shadow: 0px 5px 15px #bdbdbd;
+
 }
 
 #aboutMeGraphic {
   max-width: 100%;
   width: auto;
   height: auto;
-  margin-top: 10%;
+  margin-top: 30%;
 }
 
 .bar {
@@ -146,11 +160,12 @@ p {
 }
 
 .tags {
-  color: #f3f3f3;
-  background-color: #1e6ffb;
+  color: #424242a6;
   width: 135px;
   font-size: 13px;
   border-radius: 8px;
+  box-shadow: 0px 5px 15px #bdbdbd;
+
 }
 
 .experience,
@@ -158,9 +173,15 @@ p {
   display: none;
 }
 
+.skills {
+  margin-right: 0;
+  margin-left: 0;
+
+}
+
 .skills--backgroundColor {
-  background-color: #e6e6e6a6;
   border-radius: 10px;
+  box-shadow: 0px 5px 15px #bdbdbd;
 }
 
 .skillsIcon {
@@ -183,6 +204,17 @@ p {
   height: 20vh;
 }
 
-#experience h1 {
-  font-family: sans-serif;
+
+.project__preview {
+  width: 512px;
+}
+
+.project__title {
+  text-shadow: 0px 5px 15px #bdbdbd;
+}
+
+.project__description {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px #bdbdbd;
 }
