@@ -52,10 +52,6 @@ p {
   margin: 0;
 }
 
-.spacer {
-  margin-top: 5vh;
-}
-
 .sectionSpacing {
   padding-top: 5%;
 }
@@ -233,11 +229,7 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-
-  .spacer {
-    margin-top: 0;
-  }
-
+  
   .sectionSpacing {
     padding-top: 15%;
   }
@@ -263,7 +255,5 @@ p {
 }
 
 @media screen and (max-height: 700px) {
-  .spacer {
-    margin-top: 0;
-  }
+
 }
