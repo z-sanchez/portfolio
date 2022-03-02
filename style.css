@@ -52,6 +52,10 @@ p {
   margin: 0;
 }
 
+.spacer {
+  margin-top: 5vh;
+}
+
 .sectionSpacing {
   padding-top: 5%;
 }
@@ -70,10 +74,6 @@ p {
 
 #intro {
   height: 100vh;
-}
-
-.spacer {
-  margin-top: 5vh;
 }
 
 .welcomeText p {
@@ -233,8 +233,13 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+
   .spacer {
-    margin-top: 10%;
+    margin-top: 0;
+  }
+
+  .sectionSpacing {
+    padding-top: 15%;
   }
 
   #aboutMeGraphic {
@@ -259,6 +264,6 @@ p {
 
 @media screen and (max-height: 700px) {
   .spacer {
-    margin-top: 90px;
+    margin-top: 0;
   }
 }
