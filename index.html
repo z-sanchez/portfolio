@@ -9,23 +9,26 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container-fluid spacer p-0">
+    <div class="container-fluid p-0">
         <div class="row m-0">
             <div class="col-12 p-0 m-0">
-                <nav class="d-flex flex-row justify-content-between align-items-center p-2">
-                    <img src="./logo.png" alt="logo" class="mx-4">
-                    <ul class="mx-4 flex-shrink-0">
-                        <li class="mx-2">
-                            <a href="#intro" class="fs-5"><p class="p-1">Home</p></a>
+                <nav class="d-flex flex-column flex-md-row justify-content-between align-items-md-center p-2">
+                    <div class="logoAndMenu mx-4 d-flex justify-content-between">
+                        <img src="./logo.png" alt="logo" >
+                        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/menu--v1.png" class="d-md-none d-block" id="hamburgerMenu" alt="menu button"/>
+                    </div>
+                    <ul class="mx-4 flex-shrink-0 align-self-md-center d-md-inline-block">
+                        <li class="mx-md-2 my-3 d-block d-md-inline-block text-center">
+                            <a href="#intro" class="fs-5"><p class="p-2">Home</p></a>
                         </li>
-                        <li class="mx-2">
-                            <a href="#aboutMe" class="fs-5"><p class="p-1">About</p></a>
+                        <li class="mx-md-2 my-3 d-block d-md-inline-block text-center">
+                            <a href="#aboutMe" class="fs-5"><p class="p-2">About</p></a>
                         </li class="mx-2">
-                        <li class="mx-2">
-                            <a href="#projects" class="fs-5"><p class="p-1">Projects</p></a>
+                        <li class="mx-md-2 my-3 d-block  d-md-inline-block text-center">
+                            <a href="#projects" class="fs-5"><p class="p-2">Projects</p></a>
                         </li>
-                        <li class="mx-2" id="contactButton">
-                            <a href="#contact" class="fs-5"><p class="p-1 px-5">Contact</p></a>
+                        <li class="mx-md-2 my-3 d-block d-md-inline-block text-center" id="contactButton">
+                            <a href="#contact" class="fs-5"><p class="p-2 px-5">Contact</p></a>
                         </li>
                     </ul>
                 </nav>
@@ -33,19 +36,19 @@
         </div>
 
 
-        <section id="intro" class="row justify-content-center pt-0">
-            <div class="d-flex flex-column align-items-start welcomeText col-lg-6 justify-content-center">
-                <p>I'm <span class="blueText">Ziek,</span></p>
-                <p>A Front-End Developer.</p>
-                <a class="button p-1 px-5 fs-5 mt-3 text-center" href="#aboutMe">See More</a>
+        <section id="intro" class="row justify-content-center pt-0 spacer">
+            <div class="d-flex flex-column welcomeText col-md-6 justify-content-center">
+                <p class="text-center text-lg-start">I'm <span class="blueText">Ziek,</span></p>
+                <p class="text-center text-lg-start">A Front-End Developer.</p>
+                <a class="button p-1 px-5 fs-5 mt-5 text-center align-self-lg-start align-self-center" href="#aboutMe">See More</a>
             </div>
-            <div class="graphic mb-5 d-flex flex-column align-items-center justify-content-center col-lg-4">
+            <div class="graphic mb-5 d-flex flex-column align-items-center justify-content-start justify-content-md-center col-lg-4">
                 <h1> <span>&#60;</span>/<span>&#62;</span></h1>
             </div>
         </section>
 
 
-        <!-- <section class="row pb-4 sectionSpacing" id="aboutMe">
+        <section class="row pb-4 sectionSpacing" id="aboutMe">
             <div id="aboutMeHeader" class="row w-100 justify-content-center">
                 <div class="col-10">
                     <h1>About Me</h1>
@@ -76,7 +79,7 @@
 
                     
 
-                    <section class="row w-100 my-5 education align-self-start">
+                    <!-- <section class="row w-100 my-5 education align-self-start">
                         <div class="col-6">
                             <img src="./txstLogo.png" alt="txstLogo" id="txstLogo">
                         </div>
@@ -184,8 +187,8 @@
                         </div>
                     </section>
                 </div>
-            </div>
-        </section> -->
+            </div> -->
+        </section>
 
 
 
@@ -354,5 +357,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <script src="./iconHeaders.js"></script>
+    <script src="./hamburgerMenu.js"></script>
 </body>
 </html>

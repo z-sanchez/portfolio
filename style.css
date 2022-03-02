@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 html {
+  overflow-x: hidden;
   line-height: 1.6;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,10 +24,6 @@ h5 {
 a {
   text-decoration: none;
 }
-
-
-
-
 
 nav {
   top: 0;
@@ -52,17 +49,8 @@ li {
 }
 
 
-
-
-
-
-
-
-
 p {
-  text-align: center;
   color: #f3f3f3;
-  text-align: center;
   margin: 0;
 }
 
@@ -92,7 +80,6 @@ p {
 
 .welcomeText p {
   font-size: 60px;
-  text-align: left;
   color: #292929;
   font-family: "Open Sans", sans-serif;
   text-shadow: 0px 5px 15px #bdbdbd;
@@ -253,9 +240,28 @@ p {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
+
+  .spacer {
+    margin-top: 10%;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+
   ul {
     display: none;
   }
-  
+
+
+  .graphic h1 {
+    font-size: 200px;
+  }
+}
+
+@media  screen and  (max-height: 700px) {
+  .spacer {
+    margin-top: 90px;
+  }
 }
