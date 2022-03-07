@@ -4,7 +4,7 @@ My portfolio site!
 
  ![Login Screen](./screenshot.png)
 
-### live site (https://app.netlify.com/sites/condescending-murdock-32ed57/overview)
+### live site (https://condescending-murdock-32ed57.netlify.app/)
 
 # Table of Contents
 1. [About](#whatitdoes)
