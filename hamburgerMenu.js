@@ -6,7 +6,8 @@ listItems = Array.from(listItems);
 let toggleOn = false;
 
 menuButton.addEventListener("click", () => {
-    (toggleOn) ? toggleOn = false : toggleOn = true;
+    if (toggleOn) {toggleOn = false; menuButton.style.transform = 'rotate(0deg)';} 
+    else {toggleOn = true; menuButton.style.transform = 'rotate(90deg)'}
 
     if (toggleOn) list.style.display = "block";
     else list.style.display = "none";

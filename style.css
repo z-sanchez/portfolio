@@ -39,8 +39,13 @@ nav {
 }
 
 nav img {
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
+}
+
+#hamburgerMenu {
+  width: auto;
+  height: auto;
 }
 
 ul {
@@ -285,10 +290,3 @@ p {
   }
 }
 
-@media screen and (max-height: 700px) {
-
-}
-
-@media screen and (max-height: 1600px) {
-  
-}
