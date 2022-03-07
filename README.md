@@ -2,7 +2,7 @@
 # Portfolio
 My portfolio site!
 
- ![Login Screen](/client/src/images/screenshot.png)
+ ![Login Screen](./screenshot.png)
 
 ### live site (https://xenodochial-saha-fcec11.netlify.app/)
 
